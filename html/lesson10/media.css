@@ -49,6 +49,10 @@
         padding-top: 137px;
         background-attachment: local;
     }
+    .banner__item{
+        display: flex;
+        justify-content: space-around;
+    }
     .banner__item-text{
         width: 454px;
     }
@@ -72,6 +76,9 @@
     .banner__item .button-download{
         width: 183px;
         height: 50px;
+    }
+    .banner__item-form{
+        width:40%;
     }
     .social{
         padding: 16px 10px;
@@ -172,10 +179,6 @@
     }
 }
 @media(max-width:940px){
-    .banner__item-form{
-        height:400px;
-        padding: 25px 0 0;
-    }
     .social__item{
         grid-template-columns:1fr;
         row-gap: 20px;
