@@ -65,7 +65,17 @@ input{
     width: 100%;/* при уменьшении экрана input будет пропорционально уменьшаться*/
     height: 38px;
 }
-input, textarea, select {
+textarea{
+    border: none;
+    resize: none;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 10px 0;
+}
+input, select {
     border: none;
     border-bottom: 1px solid #BDBDBD;
     resize: none;
@@ -653,7 +663,9 @@ form{
 }
 textarea{
     width: 100%;
-    height: 214px;
+}
+.contact__item-message{
+    border-bottom: 1px solid #BDBDBD;
 }
 .button-send{
     width: 370px;

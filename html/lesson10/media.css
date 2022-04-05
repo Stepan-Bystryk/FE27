@@ -252,11 +252,13 @@
     .banner__item-form{
         width:80%;
     }
-    .banner__item .button-download,
     .stylish .button-download,
-    .button-send{
+    .button .button-send{
         width:288px;
         height: 50px;
+    }
+    .banner__item .button-download{
+        width: 280px;
     }
     .social{
         padding:40px 0;
@@ -366,7 +368,7 @@
         margin-bottom: 65px;
     }
     .contact{
-        padding: 45px 30px 40px;
+        padding: 45px 20px 40px;
     }
     .contact h2{
         font-weight: 400;
@@ -385,6 +387,12 @@
     .contact__item-message{
         margin-bottom: 50px;
     }
+    textarea{
+        height: 200px;
+    }
+    .contact__item-form .button-send{
+        width: 100%;
+    }
     .footer{
         padding: 33px 0 42px;
     }
@@ -397,10 +405,13 @@
         margin-bottom: 27px;
     }
 }
-@media(max-width:560px){
+@media(max-width:560px) and (min-width:320px){
     .banner__item-text,
     .banner__item-form{
         width: 95%;
+    }
+    .banner__item-form{
+        height:381px;
     }
     .customers__item:nth-child(2n+1){
         display: none;
