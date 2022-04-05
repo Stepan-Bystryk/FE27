@@ -235,7 +235,7 @@ background-image: url(img/rss_icon.svg);
 }
 .hidden-menu {
     width: 24px;
-    height: 18px;
+    height: 56px;
     z-index: 2;
 }
 .hidden-menu input {
@@ -246,9 +246,11 @@ background-image: url(img/rss_icon.svg);
 .hidden-menu label {
     position: relative;
     width: 24px;
-    height: 18px;
+    height: 56px;
     display: block;
     z-index: 15;
+    top:20px;
+    right: 20px;
 }
 .hidden-menu .line {
     background: white;
@@ -276,10 +278,10 @@ background-image: url(img/rss_icon.svg);
 }
 .hidden-menu input:checked ~ .sidebar {
     height: 100%;
-    top: 27px;
+    top: 56px;
 }
 .sidebar {
-    padding-top:16px;
+    padding-top:24px;
     position: absolute;
     z-index: 1;
     width: 100%;
