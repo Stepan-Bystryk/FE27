@@ -88,12 +88,12 @@
         height: 64px;
     }
     .awesome h5{
-        margin-bottom: 65px;
+        margin-bottom: 32px;
     }
     .awesome__item-pic{
-        width: 80px;
-        height: 80px;
-        margin: 0 auto 34px;
+        width: 147px;
+        height: 147px;
+        margin: 0 auto;
     }
     .awesome__item-title{
         padding: 34px 0;
@@ -249,34 +249,12 @@
         width:288px;
         height: 50px;
     }
+    .social{
+        padding:38px 0;
+    }
     .social .ico{
         width: 26px;
         height: 26px;
-        margin-bottom: 40px;
-    }
-    .ico-facebook{
-        background-image:url(img/facebookicon.svg);
-    }
-    .ico-twitter{
-        background-image:url(img/twittericon.svg) ;
-        }
-    .ico-linkedin{
-        background-image: url(img/linkedinicon.svg);
-        }
-    .ico-pinterest{
-        background-image: url(img/pinteresticon.svg);
-        }
-    .ico-instagram{
-        background-image: url(img/instagramicon.svg);
-        }
-    .ico-github{
-        background-image: url(img/githubicon.svg);
-        }
-    .ico-rss{
-        background-image: url(img/rssicon.svg);
-    }
-    .social{
-        padding-top:45px;
     }
     .social__item{
         row-gap: 32px;

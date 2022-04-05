@@ -377,7 +377,7 @@ h1{
     color: #EC7979;
 }
 form{
-    width: 100%;/*от banner__item-form-40%*/
+    width: 100%;
 }
 .form-field{
     display: flex;
@@ -422,16 +422,17 @@ form{
     height: 70px;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;/*или cover?*/
 }
 /*section awesome*/
 .awesome{
-    padding: 50px 0;
+    padding: 110px 0 58px;
 }
 .awesome h2{
-    padding:60px 0;
+    margin-bottom: 62px;
 }
 .awesome h5{
-    margin-bottom: 110px;
+    margin-bottom:71px;
 }
 .awesome__wrapper{
     display: grid;
@@ -439,13 +440,12 @@ form{
     column-gap: 30px;
 }
 .awesome__item-pic{
-    width: 92px;
-    height: 92px;
-    margin: 0 auto 39px;
-    border:#EC7979 1px solid ;
-    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    margin: 0 auto;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
 }
 .awesome__item-light{
     background-image: url(img/about_icon_1.svg);
@@ -462,11 +462,11 @@ form{
 }
 /*section price*/
 .price{
-    padding: 50px 0;
+    padding: 110px 0 50px;
     background-color: #F5F5F5;
 }
 .price h2{
-    padding: 60px 0;
+    margin-bottom: 62px;
 }
 .price h5{
     margin-bottom: 79px;
@@ -521,10 +521,10 @@ form{
 }
 /* section custom */
 .customers{
-    padding: 50px 0 64px;
+    padding: 106px 0 64px;
 }
 .customers h2{
-    padding: 60px 0;
+    margin-bottom: 62px;
 }
 .customers h5{
     margin-bottom: 83px;
@@ -540,7 +540,6 @@ form{
     position: relative;
     padding: 45px 0;
     margin-bottom: 66px;
-    height: 180px;
 }
 .customers__item-info::after{
     content:"";
@@ -597,7 +596,7 @@ form{
 }
 /* section stylish */
 .stylish{
-    padding:50px 0;
+    padding:107px 0 50px;
     margin: 0 auto;
     height: 442px;
     width: 100%;
@@ -610,7 +609,7 @@ form{
 }
 .stylish h2{
     color: #FFFFFF;
-    padding: 60px 0 ; 
+    margin-bottom: 62px; 
 }
 .stylish .separator{
     border: 1px solid #FFFFFF;
@@ -625,10 +624,10 @@ form{
 }
 /* section contact us */
 .contact{
-    padding: 50px 15px 50px;
+    padding: 110px 15px 50px;
 }
 .contact h2{
-    padding: 60px 0;
+    margin-bottom: 62px;
 }
 .contact h5{
     margin-bottom: 89px;
