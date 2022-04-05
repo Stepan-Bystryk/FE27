@@ -61,8 +61,13 @@ a, img {
 a {
     text-decoration: none;
 }
+input{
+    width: 100%;/* при уменьшении экрана input будет пропорционально уменьшаться*/
+    height: 38px;
+}
 input, textarea, select {
     border: none;
+    border-bottom: 1px solid #BDBDBD;
     resize: none;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
@@ -317,7 +322,7 @@ background-image: url(img/rss_icon.svg);
 }
 .banner__item{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .banner__item-text{
     width: 670px;
@@ -355,7 +360,7 @@ h1{
 }
 /*раздел form*/
 .banner__item-form{
-    width:40%;
+    width:470px;
     height:450px;
     padding: 35px 0 0;
     background-color: #FFFFFF;
@@ -377,20 +382,8 @@ form{
 .form-field{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    padding: 0 50px;
-    margin-bottom: 75px;
-}
-.name, 
-.email,
-.password{
-    width: 100%;/* при уменьшении экрана input будет пропорционально уменьшаться*/
-    height: 38px;
-    border-bottom: 1px solid #BDBDBD;
-}
-.name,
-.email{
-    margin-bottom: 33px;
+    padding: 45px 50px 75px;
+    row-gap: 33px;
 }
 .banner__item-form .button-started{
     width:100%;
