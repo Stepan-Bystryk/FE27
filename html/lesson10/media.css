@@ -202,7 +202,6 @@
     }
 }
 @media(max-width:768px){
-    
     .header__menu{
         display: none;
     }
@@ -242,9 +241,6 @@
     .banner__item .button-download{
         width: 288px;
         margin: 0 auto 56px;
-    }
-    .banner__item-form{
-        height:381px;
     }
     .form-field{
         padding: 0 28px 0 20px;
